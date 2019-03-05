@@ -1,0 +1,8 @@
+---
+applications:   
+- name: iot-home-monitor-1.0.0
+  memory: 64M
+  disk_quota: 128M
+  instances: 1
+  buildpack: Staticfile_v1-4-27
+  timeout: 10
